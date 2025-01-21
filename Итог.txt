@@ -1,0 +1,348 @@
+Nikita Tureev, [09.01.2025 12:38]
+Наиболее оптимальные гиперпараметры: {'nbeats_learning_rate': 0.038307012403005165, 'nbeats_widths': [64, 256], 'nbeats_backcast_loss_ratio': 1.1966256370493613, 'nbeats_log_interval': 31.249502789467183, 'nbeats_log_val_interval': 5.993888888020834, 'nbeats_weight_decay': 7.98713397121508e-05}.
+
+Размеры Train: 170, Test: 166
+
+RMSE: 281.93
+
+MAE: 264.99
+
+MAPE: 19.28%
+
+Размеры Train: 336, Test: 166
+
+RMSE: 164.41
+
+MAE: 99.34
+
+MAPE: 6.42%
+
+Размеры Train: 502, Test: 166
+
+RMSE: 260.62
+
+MAE: 198.18
+
+MAPE: 13.40%
+
+Размеры Train: 668, Test: 166
+
+RMSE: 300.11
+
+MAE: 285.31
+
+MAPE: 20.59%
+
+Размеры Train: 834, Test: 166
+
+RMSE: 186.84
+
+MAE: 119.78
+
+MAPE: 8.50%
+
+Nikita Tureev, [09.01.2025 15:35]
+Наиболее оптимальные гиперпараметры: {'tft_learning_rate': 0.003901959836777137, 'tft_hidden_size': 14, 'tft_attention_head_size': 2, 'tft_dropout': 0.16534954797920232}.
+Размеры Train: 170, Test: 166
+
+RMSE: 282.85
+
+MAE: 270.29
+
+MAPE: 19.19%
+
+Размеры Train: 336, Test: 166
+
+RMSE: 172.69
+
+MAE: 111.15
+
+MAPE: 7.11%
+
+Размеры Train: 502, Test: 166
+
+RMSE: 264.92
+
+MAE: 207.74
+
+MAPE: 13.74%
+
+Размеры Train: 668, Test: 166
+
+RMSE: 291.05
+
+MAE: 275.97
+
+MAPE: 19.41%
+
+Размеры Train: 834, Test: 166
+
+RMSE: 186.21
+
+MAE: 131.10
+
+MAPE: 9.13%
+
+Nikita Tureev, [09.01.2025 17:28]
+Наиболее оптимальные гиперпараметры: {'epochs': 28, 'batch_size': 42, 'n_input': 5, 'n_output': 12, 'lstm_units': 69}.
+
+Размеры Train: 170, Test: 166
+
+RMSE: 101.96
+
+MAE: 56.45
+
+MAPE: 3.86%
+
+Размеры Train: 336, Test: 166
+
+RMSE: 104.20
+
+MAE: 62.53
+
+MAPE: 4.13%
+
+Размеры Train: 502, Test: 166
+
+RMSE: 117.04
+
+MAE: 74.65
+
+MAPE: 4.96%
+
+Размеры Train: 668, Test: 166
+
+RMSE: 74.50
+
+MAE: 41.15
+
+MAPE: 2.82%
+
+Размеры Train: 834, Test: 166
+
+RMSE: 117.44
+
+MAE: 50.59
+
+MAPE: 3.26%
+
+Nikita Tureev, [09.01.2025 17:50]
+Наиболее оптимальные гиперпараметры: {'estimator_dlt': 'stan-map', 'global_trend_option_dlt': 'flat', 'n_bootstrap_draws_dlt': 512, 'regression_penalty_dlt': 'lasso'}.
+Размеры Train: 170, Test: 166
+
+RMSE: 77.18
+
+MAE: 51.77
+
+MAPE: 3.32%
+
+Размеры Train: 336, Test: 166
+
+RMSE: 81.70
+
+MAE: 55.96
+
+MAPE: 3.58%
+
+Размеры Train: 502, Test: 166
+
+RMSE: 84.47
+
+MAE: 58.45
+
+MAPE: 3.70%
+
+Размеры Train: 668, Test: 166
+
+RMSE: 78.88
+
+MAE: 51.91
+
+MAPE: 3.31%
+
+Размеры Train: 834, Test: 166
+
+RMSE: 76.32
+
+MAE: 62.86
+
+MAPE: 4.42%
+
+Nikita Tureev, [09.01.2025 19:49]
+Наиболее оптимальные гиперпараметры: {'estimator_lgt': 'stan-mcmc', 'n_bootstrap_draws_lgt': 320, 'regression_penalty_lgt': 'auto_ridge'}.
+Размеры Train: 170, Test: 166
+
+RMSE: 81.88
+
+MAE: 52.89
+
+MAPE: 3.35%
+
+Размеры Train: 336, Test: 166
+
+RMSE: 82.93
+
+MAE: 61.66
+
+MAPE: 4.05%
+
+Размеры Train: 502, Test: 166
+
+RMSE: 91.87
+
+MAE: 72.87
+
+MAPE: 4.80%
+
+Размеры Train: 668, Test: 166
+
+RMSE: 78.21
+
+MAE: 56.50
+
+MAPE: 3.72%
+
+Размеры Train: 834, Test: 166
+
+RMSE: 71.57
+
+MAE: 52.46
+
+MAPE: 3.55%
+
+Nikita Tureev, [09.01.2025 20:51]
+Наиболее оптимальные гиперпараметры: {'estimator_ets': 'stan-map', 'n_bootstrap_draws_ets': 302}.
+Размеры Train: 170, Test: 166
+
+RMSE: 284.06
+
+MAE: 216.76
+
+MAPE: 13.82%
+
+Размеры Train: 336, Test: 166
+
+RMSE: 218.93
+
+MAE: 166.82
+
+MAPE: 12.97%
+
+Размеры Train: 502, Test: 166
+
+RMSE: 176.03
+
+MAE: 137.09
+
+MAPE: 10.01%
+
+Размеры Train: 668, Test: 166
+
+RMSE: 228.78
+
+MAE: 184.90
+
+MAPE: 14.43%
+
+Размеры Train: 834, Test: 166
+
+RMSE: 296.38
+
+MAE: 248.14
+
+MAPE: 19.86%
+
+Nikita Tureev, [09.01.2025 23:56]
+prophet
+Размеры Train: 170, Test: 166
+
+RMSE: 248.78
+
+MAE: 219.78
+
+MAPE: 15.65%
+
+Размеры Train: 336, Test: 166
+
+RMSE: 586.17
+
+MAE: 525.46
+
+MAPE: 38.97%
+
+Размеры Train: 502, Test: 166
+
+RMSE: 227.87
+
+MAE: 197.62
+
+MAPE: 13.64%
+
+Размеры Train: 668, Test: 166
+
+RMSE: 1032.62
+
+MAE: 693.24
+
+MAPE: 46.06%
+
+Размеры Train: 834, Test: 166
+
+RMSE: 555.29
+
+MAE: 503.71
+
+MAPE: 37.45%
+
+Nikita Tureev, [10.01.2025 0:49]
+Amazon Chronos
+Размеры Train: 170, Test: 166
+
+RMSE: 145.76
+
+MAE: 86.10
+
+MAPE: 5.81%
+
+Размеры Train: 336, Test: 166
+
+RMSE: 206.34
+
+MAE: 137.84
+
+MAPE: 9.38%
+
+Размеры Train: 502, Test: 166
+
+RMSE: 134.33
+
+MAE: 104.67
+
+MAPE: 7.22%
+
+Размеры Train: 668, Test: 166
+
+RMSE: 199.63
+
+MAE: 174.24
+
+MAPE: 13.05%
+
+Размеры Train: 834, Test: 166
+
+RMSE: 214.10
+
+MAE: 124.21
+
+MAPE: 8.50%
+
+Nikita Tureev, [10.01.2025 1:03]
+Точность предсказаний:
+1 место - LSTM
+2 место - LGT
+3 место - DLT
+4 место - Amazon Chronos
+5 место - N-BEATS
+6 место - TFT
+7 место - ETS
+8 место - Prophet
